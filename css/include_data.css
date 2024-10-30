@@ -1,0 +1,243 @@
+.Empty {
+	width: 100%;
+	height: auto;
+	/**/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #F7F7F7;
+	/**/
+	font-family: Arial;
+	font-size: 14px;
+	color: #999999;
+	/**/
+	text-align: center;
+}
+/* Header */
+.Bar {
+	width: 100%;
+	/**/
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.BgGreen {
+	background-color: #00bc0d;
+}
+.BgYellow {
+	background-color: #f0af01;
+}
+.BgRed {
+	background-color: #FF3300;
+}
+.ContentTitle {
+	width: 100%;
+	height: auto;
+	/**/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	/**/
+	text-align: center;
+}
+.ContentTitle h1 {
+	font-family: Arial;
+	font-size: 34px;
+	color: #908f8f;
+	font-weight: 400;
+}
+.Green {
+	color: #00bc0d;
+}
+.Yellow {
+	color: #f0af01;
+}
+.Red {
+	color: #FF3300;
+}
+.DataInColor {
+	font-family: Arial;
+	font-size: 14px;
+	/**/
+	text-align: center;
+}
+.Renew {
+	font-family: Arial;
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	/**/
+	text-decoration: none;
+	/**/
+	margin: auto;
+	/**/
+	background-color: #4cc6ff;
+	/**/
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 18px;
+	padding-bottom: 15px;
+	/**/
+	margin-top: 20px;
+	/**/
+	display: table;
+	/**/
+	cursor: pointer;
+}
+.OptionsContent {
+	width: 860px;
+	/**/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/**/
+	display: table;
+	/**/
+	overflow: visible;
+	/**/
+	margin: auto;
+	/**/
+}
+.BoxCnt {
+	width: 260px;
+	height: 245px;
+	float: left;
+	/**/
+	margin-right: 40px;
+}
+.BoxCnt:hover .BoxData{
+	background-color: #4cc6ff;
+	color: white;
+}
+
+.TitleBox {
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	/**/
+	text-align: left;
+}
+.TitleBox strong {
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+	/**/
+	color: #626262;
+}
+.BoxData {
+	width: 100%;
+	height: 203px;
+	/**/
+	background-color: #f4f4f4;
+	/**/
+	text-align: left;
+	/**/
+	padding-left: 20px;
+	padding-top: 4px;
+}
+.BoxData pre {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 25px;
+}
+.BoxDataDisallowed {
+	width: 100%;
+	height: 203px;
+	/**/
+	text-align: left;
+	/**/
+	padding-left: 20px;
+	padding-top: 4px;
+}
+.BoxDataDisallowed pre {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 25px;
+	color: #CCCCCC;
+}
+.MicroInfo {
+	height: 15px;
+	line-height: 15px;
+	/**/
+	font-family: Arial;
+	font-size: 10px;
+	/**/
+	padding-left: 2px;
+	padding-right: 2px;
+	/**/
+	display: table;
+	float: right;
+	/**/
+	margin-top: 13px;
+}
+.MicroYellow {
+	background-color: #ffe400;
+	color: #626262;
+}
+.MicroGreen {
+	background-color: #00bc0d;
+	color: white;
+}
+.MicroRed {
+	background-color: #FF3300;
+	color: white;
+}
+.centrar{
+	display: table-cell; 
+	text-align: center; 
+	vertical-align: middle;
+}
+.LinkC {
+	width: 180px;
+	height: 160px;
+	/**/
+	overflow: hidden;
+	/**/
+	text-decoration: none;
+}
+.BoxTarget {
+	width: 180px; 
+	height: 160px;
+	/**/
+	display: table;
+}
+.DarkGreyBox {
+	width: 180px;
+	height: 160px;
+	margin-top: 0px;
+	/**/
+	display: table;
+	/**/
+	background-image: url(http://www.massadvertising.me/resources/imgw/varios/degree_grey_summary.png);
+	background-repeat: repeat;
+	/**/
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	/**/
+	text-decoration: none;
+}
+.LinkC:hover .DarkGreyBox {
+	margin-top: -160px;
+}
+.BoxGrey { 
+	width: auto;
+	min-width: 100px;
+	/**/
+	height: 50px;
+	line-height: 50px;
+	/**/
+	background-color: #F3F3F3;
+	/**/
+	font-family: Arial;
+	font-size: 14px;
+	color: #0066FF;
+	/**/
+	padding-left: 10px;
+	padding-right: 20px;
+	/**/
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.BoxGrey strong {
+	font-size: 24px;
+	/**/
+	margin-left: 10px;
+}

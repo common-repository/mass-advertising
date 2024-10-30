@@ -1,0 +1,131 @@
+/* NEWS BOX */
+#massadvertising-news.wp-connect {
+  min-width: 627px;
+  /**/
+  /*background: #626262;*/
+  border: none;
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 26px;
+  padding: 20px 0px 20px 80px;							  
+  position: relative;
+}
+#massadvertising-news.wp-connect:after {
+  bottom: 0;
+  content: '';
+  height: 50px;
+  pointer-events: none;
+  position: absolute;
+  right: -100px;
+  width: 100%;
+  z-index: 1;
+}
+/* FOWARD BUTTON */
+.wp-connect a.foward{
+  width: auto;
+  min-width: 250px;
+  padding-left: 60px;
+  padding-right: 20px;
+  /**/
+  height: 48px; line-height: 52px;
+  /**/
+  display: block;
+  /**/
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  /**/
+  text-align: left;
+  /**/
+  cursor: pointer;
+  /**/
+  border: 1px solid white;
+  /**/
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.wp-connect a.foward:hover{
+  background: #0074c1;
+}
+/* OTHER ELEMENTS */
+.float-left {
+	float: left;
+}
+@media (min-width : 981px) and (max-width : 1220px) {
+	.span-special {
+		font-family: Arial;
+		font-size: 14px;
+		color: white;
+		/**/
+		padding-left: 40px;
+		line-height: 50px;
+		/**/
+		display: none;
+	}
+	#massadvertising-news.wp-connect {
+		padding: 20px 0px 20px 30%;		
+		width: 70%;
+	}
+}
+@media (min-width : 1220px) {
+	.span-special {
+		font-family: Arial;
+		font-size: 14px;
+		color: white;
+		/**/
+		padding-left: 40px;
+		line-height: 50px;
+		/**/
+		display: table;
+	}
+}
+@media (max-width : 980px) {
+	#massadvertising-news.wp-connect {
+		display: none;
+	}
+}
+/* Needed Account */
+.BoxCntNotice {
+	width: 98%;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	/**/
+	margin-top: 20px;
+	/**/
+	background-color: #0050ac;
+}
+a.foward{
+  width: 30%;
+  min-width: 320px;
+  /*min-width: 250px;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  /**/
+  height: 90px; line-height: 90px;
+  /**/
+  display: block;
+  /**/
+  font-family: Arial;
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+  /**/
+  text-align: center;
+  /**/
+  cursor: pointer;
+  /**/
+  border: 1px solid white;
+  /**/
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /**/
+  margin: auto;
+  /**/
+  text-decoration: none;
+}
+a.foward:hover{
+  background: #0074c1;
+}

@@ -1,0 +1,123 @@
+	.BoxCntNotice h1 {
+		font-family: Arial;
+		font-size: 60px;
+		font-weight: bold;
+		color: white;
+		/**/
+		width: 100%;
+		text-align: center;
+		/**/
+		margin-bottom: 20px;
+	}
+	.BoxCntNotice p.little-disclamer {
+		font-family: Arial;
+		font-size: 14px;
+		color: white;
+		/**/
+		width: 100%;
+		text-align: center;
+	}
+	.BoxCntNotice span.status {
+		font-family: Arial;
+		font-size: 30px;
+		font-weight: bold;
+		/**/
+		width: 100%;
+		text-align: center;
+		/**/
+		display: table;
+		/**/
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+	.BoxCntNotice span.verde {
+		color: #00bc0d;
+	}
+	.BoxCntNotice span.rojo {
+		color: #FF3300;
+	}
+	.BoxCntNotice span.amarillo {
+		color: #f0af01;
+	}
+	.BoxCntNotice .line {
+		width: 60%;
+		/**/
+		margin-left: 20%;
+		margin-right: 20%;
+		/**/
+		height: 1px;
+		/**/
+		border-top: 1px solid white;
+	}
+	/* Grey Box */
+	.BoxGrey { 
+		width: auto;
+		min-width: 100px;
+		/**/
+		height: 50px;
+		line-height: 50px;
+		/**/
+		background-color: #F3F3F3;
+		/**/
+		font-family: Arial;
+		font-size: 14px;
+		color: #0066FF;
+		/**/
+		padding-left: 10px;
+		padding-right: 20px;
+		/**/
+		float: left;
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+	.BoxGrey strong {
+		font-size: 24px;
+		/**/
+		margin-left: 10px;
+	} 
+	.Cnt-Box {
+		widht: auto; 
+		margin: auto; 
+		display: table; 
+		margin-top: -43px;
+	}
+	/* Other */
+	.bg-grey {
+		background-color: grey;
+	}
+	/* FOWARD BUTTON (SPECIAL) */
+	a.fowardspecial{
+	  width: 30%;
+	  min-width: 280px;
+	  /*min-width: 250px;*/
+	  padding-left: 20px;
+	  padding-right: 20px;
+	  /**/
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  /**/
+	  line-height: 20px;
+	  /**/
+	  display: block;
+	  /**/
+	  font-family: Arial;
+	  font-size: 110%;
+	  color: white;
+	  /**/
+	  text-align: center;
+	  /**/
+	  cursor: pointer;
+	  /**/
+	  border: 1px solid white;
+	  /**/
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  border-radius: 10px;
+	  /**/
+	  margin: auto;
+	  /**/
+	  text-decoration: none;
+	}
+	a.fowardspecial:hover{
+	  background: #0074c1;
+	}
